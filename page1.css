@@ -11,6 +11,9 @@ section {
 body {
     background-color: #030025;
 }
+h1{
+    font-size: 3vw;
+}
 
 /*    LOGO AND COMPANY NAME    */
 header {
@@ -105,6 +108,14 @@ header {
     padding: 14px 16px;
     font-size: 17px;
 }
+@media screen and (max-width: 600px) {
+    .dropdown{
+        font-size: 2vw;
+    }
+    .navigationbar a{
+        font-size: 2vw;
+    }
+}
 
 .dropdown .dropbtn {
     border: none;
@@ -184,6 +195,19 @@ header {
 }
 
 @media screen and (max-width: 1154px) {
+    .navigationbar a{
+        width: 33%;
+    }
+    .dropdown{
+        width: 33%;
+    }
+    .dropdown-content{
+        width: 33%;
+        left: 33%;
+    }
+    .column a{
+        width: 100%;
+    }
     .navigationbar input[type=text] {
         float: right;
         padding: 6px;
